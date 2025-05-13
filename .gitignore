@@ -1,0 +1,64 @@
+# === 공통 (운영체제 / 에디터) ===
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# === Node.js + Express (백엔드) ===
+node_modules/
+npm-debug.log
+.env
+.env.*  # .env.dev, .env.local 등
+
+# === React Native + Expo (프론트엔드) ===
+*.expo
+.expo/
+.expo-shared/
+*.apk
+*.ipa
+*.keystore
+*.gradle
+*.jks
+android/app/build/
+ios/build/
+ios/Pods/
+*.xcworkspace
+*.xcodeproj
+
+# === Firebase 관련 (토큰, 인증, 빌드 캐시 등) ===
+.firebase/
+firebase-debug.log
+firestore.indexes.json
+firestore.rules
+storage.rules
+*.secret
+*.private.key
+
+# === Tesseract OCR (OCR 학습 관련 파일) ===
+*.traineddata
+tessdata/
+
+# === IoT (ESP32, PlatformIO, Arduino 등) ===
+*.bin
+*.elf
+*.hex
+*.map
+.pio/
+build/
+firmware/
+
+# === MQTT 인증 키/설정 등 보안 파일 ===
+*.crt
+*.pem
+*.key
+*.conf
+
+# === Python (만약 IoT 코드에 Python 포함 시) ===
+__pycache__/
+*.pyc
+
+# === 기타 API 키 관련 ===
+apikey.json
+credentials.json
+*.api.key
