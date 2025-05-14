@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "803788322067",
+    "project_id": "momcomfortseat",
+    "storage_bucket": "momcomfortseat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803788322067:android:981b0f3cfbfc7d654f16e6",
+        "android_client_info": {
+          "package_name": "mom.comfort.seat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVmQG1qOd3y1pY2w8JRDsUOug3N5vye08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
