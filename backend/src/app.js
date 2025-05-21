@@ -1,6 +1,8 @@
 // 테스트 용 간단한 페이지 만들엇어요.
 
 const express = require("express");
+const cors = require('cors');
+const ocrRouter = require('./routes/ocrRoute');
 const app = express();
 const cors = require('cors');
 
