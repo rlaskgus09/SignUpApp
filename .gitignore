@@ -9,7 +9,8 @@ Thumbs.db
 node_modules/
 npm-debug.log
 .env
-.env.*  # .env.dev, .env.local 등
+.env.*
+.env*.local
 
 # === React Native + Expo (프론트엔드) ===
 *.expo
@@ -62,3 +63,24 @@ __pycache__/
 apikey.json
 credentials.json
 *.api.key
+
+# === Expo Web 관련 ===
+dist/
+web-build/
+expo-env.d.ts
+
+# === Native 관련 ===
+.kotlin/
+*.orig.*
+*.p8
+*.p12
+*.mobileprovision
+
+# === Metro 관련 ===
+.metro-health-check*
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === 기타 GitHub 기본 주석 ===
+# Learn more https://docs.github.com/en/get-st
